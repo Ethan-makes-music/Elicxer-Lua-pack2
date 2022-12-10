@@ -1,0 +1,8 @@
+print("Hello, What is your name?")
+local answer1 = io.read()
+print("Hello " ..answer1.. " Whats your favorite food?")
+local answer2 = io.read()
+print("Nice, " ..answer2.. " Is my favorite food too!\nWhat is your favorite sport?")
+local answer3 = io.read()
+print("I'm not the biggest fan of " ..answer3)
+print("I'm board " ..answer1.. "\nI'm going to go get some " ..answer2.."\n and not watch " ..answer3)
